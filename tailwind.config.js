@@ -15,6 +15,9 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: {
+        'rocket-icon': "url('/rocketship.png')",
+      },
       colors: {
         gray: {
           100: '#f7fafc',
@@ -37,6 +40,17 @@ module.exports = {
           700: '#2b6cb0',
           800: '#2c5282',
           900: '#2a4365',
+        },
+        fun: {
+          100: '#E4E7EC',
+          200: '#2B2F43',
+          300: '#F7C478',
+        },
+        funButton: {
+          100: '#E4E7EC',
+          200: '#91949e',
+          300: '#43588E',
+          400: '#2B2F43',
         },
       },
     },

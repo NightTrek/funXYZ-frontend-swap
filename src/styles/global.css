@@ -19,3 +19,10 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+
+.gradient-bg {
+  background: linear-gradient(0deg, #E4E7EC, #E4E7EC),
+  linear-gradient(0deg, #EDF1F4, #EDF1F4),
+  linear-gradient(125.87deg, rgba(255, 255, 255, 0.69) 0%, rgba(255, 255, 255, 0.42) 99.97%);
+}
